@@ -1,0 +1,25 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Catalyst build
+.build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
